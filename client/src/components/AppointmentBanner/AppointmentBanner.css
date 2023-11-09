@@ -1,0 +1,54 @@
+.appointment-banner-wrapper {
+  /* margin-top: 20px; */
+  border-radius: 10px;
+  background: rgb(0, 103, 255);
+  background: linear-gradient(
+    252deg,
+    rgba(0, 103, 255, 0.8015800070028012) 7%,
+    rgba(0, 103, 255, 1) 47%,
+    rgba(19, 68, 255, 1) 100%
+  );
+  margin-bottom: 10px;
+  padding: 20px 15px;
+}
+
+.banner-doc-name {
+  font-size: 16px;
+  color: white;
+  line-height: 1.2;
+}
+
+.doc-details {
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+}
+
+.visit-details-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.date-wrapper {
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-wrapper {
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 35%;
+}

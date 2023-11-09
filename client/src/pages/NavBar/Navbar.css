@@ -1,0 +1,22 @@
+.hamburger-logo {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-wrapper {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  font-size: 30px;
+}
+
+.navbar-user-icon {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,50 @@
+.herosec-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  background-size: 90%;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.herosec-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(19, 68, 255);
+  background: linear-gradient(
+    19deg,
+    rgba(19, 68, 255, 1) 5%,
+    rgba(19, 68, 255, 0.9975744047619048) 37%,
+    rgba(255, 255, 255, 0) 76%
+  );
+}
+
+.herosec-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px 16px;
+  display: flex;
+  align-items: left;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.herosec-cta {
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 80px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+}

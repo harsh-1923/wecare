@@ -1,0 +1,32 @@
+.header-wrapper {
+  height: 60px;
+  padding: 5px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 40px;
+  aspect-ratio: 1;
+}
+
+.header-wecare {
+  color: grey;
+}
+
+.logo-highlight {
+  color: var(--secondary-blue);
+}
+
+.account-badge {
+  border: 1px solid green;
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-blue);
+  color: white;
+}
