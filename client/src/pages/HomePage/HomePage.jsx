@@ -7,12 +7,12 @@ const HomePage = () => {
   return (
     <div className="homepage-wrapper">
       <HeroSec />
-      <div className="tagline-wrapper">
+      {/* <div className="tagline-wrapper">
         <div>
           we<span className="logo-highlight">care</span> <br /> because you
           <span className="logo-highlight">matter</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
