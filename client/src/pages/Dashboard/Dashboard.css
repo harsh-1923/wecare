@@ -1,63 +1,21 @@
 .dashboard-wrapper {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start;
   flex-direction: column;
   padding: 16px;
 }
 
-.dashboard-welcome-wrapper {
+.user-welcome-wrapper {
+  color: var(--secondary-blue);
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.family-details-wrapper {
   margin-top: 20px;
-  width: 100%;
-  margin-bottom: 10px;
 }
 
-.welcome-title {
-  font-size: 20px;
-  line-height: 0.8;
-}
-
-.user-name {
+.dividers {
   color: var(--secondary-blue);
-}
-
-.appointment-schedule-wrapper {
-  width: 100%;
-  display: flex;
-  align-items: left;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-.appointment-title {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.appointment-list {
-  color: var(--secondary-blue);
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: underline;
-}
-
-.list-text {
-  font-weight: 600;
-}
-
-.appointment-btn-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 20px;
-  background-color: var(--secondary-blue);
-  color: white;
-  font-size: 18px;
-  font-weight: 600;
 }

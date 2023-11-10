@@ -2,8 +2,11 @@ import React from "react";
 import HERO from "../../assets/HERO.png";
 import "./HeroSec.css";
 import AdvertBanner from "../AdvertBanner/AdvertBanner";
+import { useNavigate } from "react-router-dom";
 
 const HeroSec = () => {
+  const navigateTo = useNavigate();
+
   return (
     <div
       style={{ backgroundImage: `url(${HERO})` }}
@@ -12,7 +15,14 @@ const HeroSec = () => {
       <div className="herosec-overlay"></div>
       <div className="herosec-content">
         <AdvertBanner />
-        <div className="herosec-cta">Get Started</div>
+        <div
+          onClick={() => {
+            navigateTo("/dashboard");
+          }}
+          className="herosec-cta"
+        >
+          Get Started
+        </div>
       </div>
     </div>
   );

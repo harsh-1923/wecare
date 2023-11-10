@@ -1,0 +1,40 @@
+.prev-app-banner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.prev-date-pres-wrapper {
+  background-color: var(--secondary-blue);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.prev-date-presenters-month {
+  font-weight: 200;
+}
+
+.prev-date-presenters-date {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.prev-app-detail-wrapper {
+  color: var(--secondary-blue);
+  line-height: 1.2;
+  border: 1px solid red;
+  width: 100%;
+  margin-left: 10px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}

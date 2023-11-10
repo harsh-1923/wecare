@@ -1,7 +1,7 @@
 .herosec-wrapper {
   position: relative;
   width: 100vw;
-  height: 80vh;
+  height: calc(95vh - 60px);
   background-size: 90%;
   background-position: top right;
   background-repeat: no-repeat;
