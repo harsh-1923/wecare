@@ -1,6 +1,7 @@
 import React from "react";
 import "./Dashboard.css";
 import AppointmentBanner from "../../components/AppointmentBanner/AppointmentBanner";
+import { useNavigate } from "react-router-dom";
 
 import Box from "@mui/material/Box";
 import Fab from "@mui/material/Fab";
@@ -8,6 +9,7 @@ import PrevAppointmentBabber from "../../components/PrevAppointmentBanner/PrevAp
 import FamilyRestroomIcon from "@mui/icons-material/FamilyRestroom";
 
 const Dashboard = () => {
+  const navigateTo = useNavigate();
   const appointmentList = [
     {
       date: "13",
@@ -24,7 +26,7 @@ const Dashboard = () => {
   const prevAppointment = [
     {
       date: "13",
-      month: "September",
+      month: "July",
       year: "2015",
       slot: "8-9 PM",
       docName: "Dr. Vishal Sinha",
@@ -77,6 +79,7 @@ const Dashboard = () => {
         }}
       >
         <Fab
+          onClick={() => navigateTo("/makeAppointment")}
           size="secondary"
           style={{
             backgroundColor: "black",
